@@ -1,0 +1,21 @@
+package org.sample.functions;
+
+import java.io.File;
+
+public class SampleFunctions {
+
+	public static void main(String args[]) {
+		SampleFunctions sample = new SampleFunctions();
+		int s = sample.sum(12,26);//arguments while calling fn
+		System.out.println("The value returned is "+s);
+		File file = new File ("C:\\official");
+		file.canRead();
+	}
+
+	public  int  sum(int a , int b) {
+		int c=a+b;
+	
+		return c;
+	}
+	
+}

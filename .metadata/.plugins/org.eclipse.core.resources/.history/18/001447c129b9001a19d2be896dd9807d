@@ -1,0 +1,17 @@
+package org.sample.functions;
+
+public class SampleFunctions {
+
+	public static void main(String args[]) {
+		SampleFunctions sample = new SampleFunctions();
+		int s = sample.sum(12,26);//arguments while calling fn
+		
+		
+	}
+
+	public  int  sum(int a , int b) {
+		int c=a+b;
+	
+		return c;
+	}
+}

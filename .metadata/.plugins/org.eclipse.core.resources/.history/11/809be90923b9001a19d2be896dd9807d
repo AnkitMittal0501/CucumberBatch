@@ -1,0 +1,3 @@
+Feature: Test Login functionality
+
+Scenario: Valid login for Rediffmail

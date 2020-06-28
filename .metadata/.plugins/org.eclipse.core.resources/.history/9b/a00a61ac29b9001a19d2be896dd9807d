@@ -1,0 +1,15 @@
+package org.sample.functions;
+
+public class SampleFunctions {
+
+	public static void main(String args[]) {
+		SampleFunctions sample = new SampleFunctions();
+		s=sample.sum(12,26);//arguments while calling fn
+		
+	}
+
+	public  void sum(int a , int b) {
+		int c=a+b;
+		System.out.println("The value of c is "+c);
+	}
+}

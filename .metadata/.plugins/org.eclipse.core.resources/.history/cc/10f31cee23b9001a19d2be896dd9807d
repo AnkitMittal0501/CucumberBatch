@@ -1,0 +1,5 @@
+package org.cucumber.project.stepdef;
+
+public class StepDefinition {
+
+}

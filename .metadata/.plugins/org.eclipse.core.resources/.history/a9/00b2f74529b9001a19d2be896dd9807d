@@ -1,0 +1,16 @@
+package org.sample.functions;
+
+public class SampleFunctions {
+
+	public static void main(String args[]) {
+		sum();
+	}
+
+	public  void sum() {
+		int a,b,c;
+		a=25;
+		b=35;
+		c=a+b;
+		System.out.println("The value of c is "+c);
+	}
+}

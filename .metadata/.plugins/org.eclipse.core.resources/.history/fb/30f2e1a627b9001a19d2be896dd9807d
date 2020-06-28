@@ -1,0 +1,37 @@
+package org.cucumber.project.stepdef;
+
+public class StepDefinition {
+
+
+@Given("^User is on login page$", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+@When("validate login poage title should be rediffmail", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+@Then("enter username and password", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+Then("click on login", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+@Then("verify user in on home page", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+@Then("Close the browser", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+});
+
+
+}
